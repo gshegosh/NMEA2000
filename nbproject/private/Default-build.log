@@ -1,0 +1,94 @@
+Scanning dependencies of target nmea2000
+[  5%] Building CXX object src/CMakeFiles/nmea2000.dir/ActisenseReader.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kDeviceList.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kGroupFunction.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kGroupFunctionDefaultHandlers.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kMaretron.cpp.o
+[ 35%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kMessages.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kMsg.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/nmea2000.dir/N2kStream.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/nmea2000.dir/NMEA2000.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/nmea2000.dir/NMEA2000_SocketCAN.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/nmea2000.dir/Seasmart.cpp.o
+[ 70%] Linking CXX static library libnmea2000.a
+[ 70%] Built target nmea2000
+Scanning dependencies of target catch
+[ 76%] Building CXX object third-party/catch/CMakeFiles/catch.dir/catch.cpp.o
+In file included from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/vector:64,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.hpp:671,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.cpp:26:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h: W funkcji składowej ‘void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Catch::SectionEndInfo; _Alloc = std::allocator<Catch::SectionEndInfo>]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h:1085:4: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >’ changed in GCC 7.1
+    _M_realloc_insert(end(), __x);
+    ^~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h: W funkcji składowej ‘std::vector<_Tp, _Alloc>::reverse_iterator std::vector<_Tp, _Alloc>::rbegin() [with _Tp = Catch::SectionEndInfo; _Alloc = std::allocator<Catch::SectionEndInfo>]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h:735:38: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >’ changed in GCC 7.1
+       { return reverse_iterator(end()); }
+                                      ^
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h: W funkcji składowej ‘std::vector<_Tp, _Alloc>::reverse_iterator std::vector<_Tp, _Alloc>::rend() [with _Tp = Catch::SectionEndInfo; _Alloc = std::allocator<Catch::SectionEndInfo>]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_vector.h:753:40: note: parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >’ changed in GCC 7.1
+       { return reverse_iterator(begin()); }
+                                        ^
+In file included from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/vector:69,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.hpp:671,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.cpp:26:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/vector.tcc: W funkcji składowej ‘void std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const Catch::SectionEndInfo&}; _Tp = Catch::SectionEndInfo; _Alloc = std::allocator<Catch::SectionEndInfo>]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/vector.tcc:413:7: note: parameter passing for argument of type ‘std::vector<Catch::SectionEndInfo>::iterator’ {aka ‘__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >’} changed in GCC 7.1
+       vector<_Tp, _Alloc>::
+       ^~~~~~~~~~~~~~~~~~~
+In file included from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_algobase.h:67,
+                 from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/char_traits.h:39,
+                 from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/ios:40,
+                 from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/istream:38,
+                 from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/sstream:38,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.hpp:377,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.cpp:26:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_iterator.h: In constructor ‘std::reverse_iterator<_Iterator>::reverse_iterator(std::reverse_iterator<_Iterator>::iterator_type) [with _Iterator = __gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_iterator.h:133:7: note: parameter passing for argument of type ‘std::reverse_iterator<__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> > >::iterator_type’ {aka ‘__gnu_cxx::__normal_iterator<Catch::SectionEndInfo*, std::vector<Catch::SectionEndInfo> >’} changed in GCC 7.1
+       reverse_iterator(iterator_type __x) : current(__x) { }
+       ^~~~~~~~~~~~~~~~
+In file included from /work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/vector:63,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.hpp:671,
+                 from /work/mareda/MaredaApp/libs/NMEA2000/third-party/catch/catch.cpp:26:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h: W funkcji ‘_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = Catch::SectionEndInfo*; _ForwardIterator = Catch::SectionEndInfo*; _Allocator = std::allocator<Catch::SectionEndInfo>]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:311:2: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+       return std::__uninitialized_copy_a
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc);
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h: W funkcji ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<Catch::SectionEndInfo*>; _ForwardIterator = Catch::SectionEndInfo*; _Tp = Catch::SectionEndInfo]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:287:5: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+     __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+     ^~~~~~~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:287:5: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:289:37: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+     { return std::uninitialized_copy(__first, __last, __result); }
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h: W funkcji ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Catch::SectionEndInfo*>; _ForwardIterator = Catch::SectionEndInfo*]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:115:5: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+     uninitialized_copy(_InputIterator __first, _InputIterator __last,
+     ^~~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:115:5: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:134:15: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+       return std::__uninitialized_copy<__is_trivial(_ValueType1)
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            && __is_trivial(_ValueType2)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            && __assignable>::
+            ~~~~~~~~~~~~~~~~~~
+  __uninit_copy(__first, __last, __result);
+  ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h: In static member function ‘static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Catch::SectionEndInfo*>; _ForwardIterator = Catch::SectionEndInfo*; bool _TrivialValueTypes = false]’:
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:76:9: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+         __uninit_copy(_InputIterator __first, _InputIterator __last,
+         ^~~~~~~~~~~~~
+/work/mareda/buildroot/output/host/arm-buildroot-linux-gnueabihf/include/c++/8.3.0/bits/stl_uninitialized.h:76:9: note: parameter passing for argument of type ‘std::move_iterator<Catch::SectionEndInfo*>’ changed in GCC 7.1
+[ 82%] Linking CXX static library libcatch.a
+[ 82%] Built target catch
+Scanning dependencies of target SeasmartTests
+[ 88%] Building CXX object test/CMakeFiles/SeasmartTests.dir/SeasmartTests.cpp.o
+[ 94%] Building CXX object test/CMakeFiles/SeasmartTests.dir/millis.cpp.o
+[100%] Linking CXX executable SeasmartTests
+[100%] Built target SeasmartTests

@@ -83,3 +83,4 @@ Makefile
 *.exe
 *.out
 *.app
+/test/SeasmartTests
