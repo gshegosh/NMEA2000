@@ -1,3 +1,9 @@
+= gshegosh modifications =
+
+- added cpp and h files from https://github.com/thomasonw/NMEA2000_socketCAN
+- modified CMakeLists.txt to include ALL cpp files in the compiled lib
+
+
 = NMEA2000 library for C++ =
 
 Object oriented NMEA2000 library for Arduino, MBED and Rasberry type Boards.
